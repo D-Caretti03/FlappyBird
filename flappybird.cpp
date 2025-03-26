@@ -157,7 +157,7 @@ bool create_window()
 {
     bool success = true;
 
-    window = SDL_CreateWindow( "PHYSICS", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WIDTH, HEIGHT, SDL_WINDOW_SHOWN );
+    window = SDL_CreateWindow( "FLAPPY BIRD", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WIDTH, HEIGHT, SDL_WINDOW_SHOWN );
 
     if( window == NULL )
     {
@@ -475,7 +475,7 @@ int main( int argc, char *argv[] )
         exit(EXIT_FAILURE);
     }
 
-    font = TTF_OpenFont("FlappyBirdy.ttf", 96);
+    font = TTF_OpenFont("flappybird.ttf", 96);
 
     if( !font )
     {
